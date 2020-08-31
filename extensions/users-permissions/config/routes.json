@@ -1,0 +1,34 @@
+{
+  "routes": [
+    {
+      "method": "PATCH",
+      "path": "/users/me",
+      "handler": "User.updateMe",
+      "config": {
+        "policies": [],
+        "prefix": "",
+        "description": "Update an logedin user",
+        "tag": {
+          "plugin": "users-permissions",
+          "name": "User",
+          "actionType": "update"
+        }
+      }
+    },
+    {
+      "method": "PATCH",
+      "path": "/users/:id",
+      "handler": "User.update",
+      "config": {
+        "policies": [],
+        "prefix": "",
+        "description": "Update an existing user",
+        "tag": {
+          "plugin": "users-permissions",
+          "name": "User",
+          "actionType": "update"
+        }
+      }
+    }
+  ]
+}
