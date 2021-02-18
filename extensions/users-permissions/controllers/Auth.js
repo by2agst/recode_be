@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken')
 module.exports = {
   async refreshToken (ctx) {
     try {
-	    const { jwt } = _.assign(ctx.request.body)
+      const { jwt } = _.assign(ctx.request.body)
       const { id } = await this.verify(jwt)
       const user = await strapi.query('user', 'users-permissions').findOne({ id })
       ctx.send({
