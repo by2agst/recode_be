@@ -11,9 +11,14 @@
 
 <a href="https://strapi.io/documentation/developer-docs/latest/getting-started/quick-start.html" target="_blank">Read the Getting Started tutorial</a> or follow the steps below:
 
+## 💰 Donation
+If this project help you reduce time to develop, you can give me a cup of coffee ☕ :)
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/recodeproject)
+
 ### 🖐 Requirements
 
-Complete installation requirements can be found in the documentation under <a href="https://strapi.io/documentation/developer-docs/latest/installation/cli.html#step-1-make-sure-requirements-are-met">Installation Requirements</a>.
+Complete installation requirements can be found in the documentation under <a href="https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/installation.html" target="_blank">Installation Requirements</a>.
 
 **Node:**
 
